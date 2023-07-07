@@ -23,4 +23,3 @@ ENV KC_DB_PASSWORD=ctt9GZyZnfdFLGSPT2Tr
 ENV KC_HOSTNAME=containers-us-west-66.railway.app
 # RUN /opt/keycloak/bin/kc.sh start-dev
 ENTRYPOINT ["/opt/keycloak/bin/kc.sh"]
-CMD ["start-dev"]
