@@ -21,7 +21,7 @@ ENV KC_DB=railway
 ENV KC_DB_USERNAME=postgres
 ENV KC_DB_PASSWORD=ctt9GZyZnfdFLGSPT2Tr
 ENV KC_HOSTNAME=containers-us-west-66.railway.app
-#RUN /opt/keycloak/bin/kc.sh start-dev
 ENTRYPOINT ["/opt/keycloak/bin/kc.sh"]
+RUN /opt/keycloak/bin/kc.sh start-dev
 #CMD ["kc.sh", "start-dev"]
-RUN ls
+#RUN ls
